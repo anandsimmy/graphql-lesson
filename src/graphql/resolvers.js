@@ -5,7 +5,6 @@ export const typeDefs= gql`
         ToggleCartHidden: Boolean!
     }
 `
-
 const GET_CART_HIDDEN= gql`
     {
         cartHidden @client
